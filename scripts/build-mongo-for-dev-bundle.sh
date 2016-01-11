@@ -3,7 +3,7 @@
 set -e
 set -u
 
-MONGO_VERSION="3.2"
+MONGO_VERSION="3.2.0"
 
 source "$(dirname $0)/build-dev-bundle-common.sh"
 echo CHECKOUT DIR IS "$CHECKOUT_DIR"

@@ -33,7 +33,7 @@ fi
 
 # Update these values after building the dev-bundle-mongo Jenkins project.
 # Also make sure to update MONGO_VERSION in generate-dev-bundle.ps1.
-MONGO_VERSION=3.2
+MONGO_VERSION=3.2.0
 MONGO_BUILD_NUMBER=8
 MONGO_TGZ="mongo_${PLATFORM}_v${MONGO_VERSION}.tar.gz"
 if [ -f "${CHECKOUT_DIR}/${MONGO_TGZ}" ] ; then
